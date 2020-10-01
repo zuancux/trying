@@ -7,16 +7,14 @@
 
 
 
-**Pertanyaan 1: Cobalah untuk menambahkan sebuah resep dengan mengakses link berikut: **
-
+**Pertanyaan 1: Cobalah untuk menambahkan sebuah resep dengan mengakses link berikut:**
 http://localhost:8080/resep/add?noResep=1&namaDokter=Papa%20APAP&namaPasien=Quanta%20Fasilkom&catatan=Semangat 
-
 **Apa yang terjadi? Jelaskan mengapa hal tersebut dapat terjadi**
 
 **jawab :**
 Terjadi erorr, karena template add-resep belum ada, sedangkan input parameter di render ke add-resep(template belum ada). 
 
-![nomor 1](https://drive.google.com/file/d/1pj8_N0E6E55kQIBGEH00YTMaxT-UFcu5/view?usp=sharing)
+![nomor 1](https://github.com/zuancux/trying/blob/master/pertanyaan%201.png)
 
 
 **Pertanyaan 2: Menurut kamu anotasi @Autowired pada class Controller tersebut merupakan implementasi dari konsep apa? Dan jelaskan secara singkat cara kerja @Autowired tersebut dalam konteks service dan controller yang telah kamu buat**
